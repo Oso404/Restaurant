@@ -1,36 +1,17 @@
-# Create Restaurant Food
+#FoodIndie 
 
-description
+## Description
 
-> created by [create-create-app](https://github.com/uetchy/create-create-app).
+> Project 3
 
-## Usage
+FoodieFind is a full-stack restaurant discovery and review platform that allows users to explore restaurants, write reviews, and receive personalized recommendations based on their taste preferences. Designed for food lovers who enjoy trying new places, the app combines user-generated content with backend logic to surface meaningful, location-based suggestions.
 
-```bash
-npx create-restaurant-food <name>
-```
+Users can filter restaurants by cuisine, location, and price, save their favorites, and track their dining experiences. Personalized suggestions are generated based on user profiles, past interactions, and ratings, mimicking real-world food recommendation platforms.
 
-## Template string reference
+#Tech Stack
 
-> Don't forget to remove this before publishing your package!
+#Features
 
-- {{name}} => create-restaurant_food
-- {{upper name}} => CREATE-RESTAURANT_FOOD
-- {{lower name}} => create-restaurant_food
-- {{capital name}} => CreateRestaurantFood
-- {{capital name space=true}} => Create Restaurant Food
-- {{camel name}} => createRestaurantFood
-- {{snake name}} => create_restaurant_food
-- {{kebab name}} => create-restaurant-food
-- {{space name}} => create restaurant food
-- {{uuid}} => 5cb61307-1dc0-4e90-9cef-bfbfedd7c7fd
-- {{upper (uuid)}} => ED109786-7BD7-4A35-871A-61C249307637
-- {{description}} => description
-- {{author}} => Oso404
-- {{email}} => joules.programming.8122@gmail.com
-- {{contact}} => Oso404 <joules.programming.8122@gmail.com>
-- {{license}} => UNLICENSED
-- {{year}} => 2025
-- {{custom}} =>  (undefined until it is defined in `extra` field in `create` function arguments)
+#Why This Project Stands Out
 
-See https://github.com/uetchy/create-create-app#template for the further details.
+#Screenshots
