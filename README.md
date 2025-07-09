@@ -8,10 +8,10 @@ FoodieFind is a full-stack restaurant discovery and review platform that allows 
 
 Users can filter restaurants by cuisine, location, and price, save their favorites, and track their dining experiences. Personalized suggestions are generated based on user profiles, past interactions, and ratings, mimicking real-world food recommendation platforms.
 
-#Tech Stack
+# Tech Stack
 
-#Features
+# Features
 
-#Why This Project Stands Out
+# Why This Project Stands Out
 
-#Screenshots
+# Screenshots
