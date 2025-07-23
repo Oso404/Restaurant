@@ -1,0 +1,20 @@
+main.jsx is our "rendering" file...in other words it takes in react objects and transforms them into html/css so that we can see them on screen
+
+in this project we choose the root element to be the starting point  where react objects are to be loaded
+
+jsx file can return just one object and this object can contain many html elements within a div to be returned or it can return just one element
+
+jsx file is not allowed to return more than one object....if we the user wish to return more than one theyd have to be wrapped using a div
+
+in order to use element created in a jsx file they must be exported within that very jsx file and imported in different file where its to be used
+
+margin vs padding
+margin is space between div and anything around it whereas padding is space between div and inside 
+
+if we want curved divs on edges we use border radius and set to a percentage    
+
+position attribute
+controls how an element is positioned within the document and how it should behave with its nearby elements
+
+if we want to align some things we would use the display css attribute and assign it to flex...this allows us to to easily control how elements align, space out and wrap 
+

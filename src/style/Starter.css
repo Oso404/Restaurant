@@ -1,0 +1,85 @@
+
+.outer-body{
+    width:100%;
+    height:100vh;
+    background-color: rgb(149, 199, 169);
+    margin: 5px;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+    background: linear-gradient(135deg, green 0%, #9face6 100%);
+    box-shadow: 0px 10px 35px black;
+
+}
+
+.outer-card {
+    background-color: rgb(149, 199, 169);
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    border-radius: 40px;
+    display: flex;
+    padding: 1%;           
+    box-sizing: border-box;
+    gap: 0;             
+}
+
+
+.inner-card-left,
+.inner-card-right {
+    height: 100%; 
+    /* border-radius: 5%; */
+}
+
+
+.inner-card-left {
+    background-color: white;
+    width:60%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.inner-card-right {
+    background-color: green;
+    width:40%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;;
+}
+
+.logo-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  /* border: 4px black solid; */
+  /* border-radius: 5%; */
+  text-align: center;
+}
+
+.logo-wrapper img {
+  width: 80%;
+  height: 60%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+#logo-top-text{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+}
+#logo-bottom-text{
+    width: 50%;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium
+}
+
+
