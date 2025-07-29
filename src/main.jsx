@@ -7,5 +7,5 @@ createRoot(document.getElementById('root')).render(
     <StarterCard />
     {/* <App /> */}
     {/* <Open /> */}
-  </StrictMode>,
+  </StrictMode>
 )

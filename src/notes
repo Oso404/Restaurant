@@ -18,3 +18,32 @@ controls how an element is positioned within the document and how it should beha
 
 if we want to align some things we would use the display css attribute and assign it to flex...this allows us to to easily control how elements align, space out and wrap 
 
+ABOVE before July 25, 2025
+DATE: July 28, 2025
+
+-im currently going to make the registration page/sign in page and hope to finish this by tonight before work tomorrow
+
+LEARNING: react useState, react hook forms
+
+useState
+- must be imported from react
+- format: const [stateVariable, setStateFunction] = useState(initial Value)
+- setStateFunction is the function to be used to update the stateVariable
+
+input 
+- onChange takes in a function that is called everytime the input box is updated (in our situation we call the setStateFunction setUsername which updates our stateVariable username)
+
+e
+- e is a special react object that grasps all the information needed 
+about a current event (in this case event trigger)
+- e.target is the input box
+- e.target.value is the value within the input box
+- each time the input box is updated, e.target.value is updated to it
+
+useState uses
+- most basic case is for keeping track of user input
+- but we can also use it for logic as well, in this case we have email validation where we cross check with regex and is called every time the email input box is updated
+
+
+
+

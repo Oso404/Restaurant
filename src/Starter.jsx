@@ -1,5 +1,6 @@
 import './style/Starter.css'
 import logo from "./assets/couple2.png"
+import RegisterForm from './Register';
 
 let isSignedIn = false;
 
@@ -16,7 +17,9 @@ function StarterCard(){
                     </div>
                 </div>
                 <div className = "inner-card-right">
-                    <p>Right Card</p>
+                    <div className='form'>
+                        <RegisterForm />
+                    </div>
                 </div>
             </div>
 
