@@ -45,5 +45,27 @@ useState uses
 - but we can also use it for logic as well, in this case we have email validation where we cross check with regex and is called every time the email input box is updated
 
 
+DATE: July 29, 2025
+position css attribute
+-our main goal is to understand when its set to absolute vs relative
+-to begin in order to use attributes top left bottom right we must have set position to some value (by default it is static and previously mentioned attributes will not work)
+- when set to relative the div is able to move and its orignal space is reserved meaning no other element can reserve that space
+- when set is relative absolutely children use element as a reference 
+- when set to absolute the div is able to move however its original space is not reserved meaning any other element can overlap and occupy the original space 
 
+
+form position relative
+- by setting position to relative we are able to set it as a reference box 
+
+inner display flex
+- by setting display to flex we are able to easily align and control the positioning of the children elements
+
+top attribute in children elements
+- since we set the parent div's positioning attribute set to absolute
+the children elements when using top attribute are referencing the parent
+- e.g. top: 10% in the email class would be 10% from the top of parent div
+- e.g. top: 25% in the username class would be the 25% from the top of the parent div which means itll be 15% below the email class
+
+why display flex
+- whenever we want to organize elements whether in a row or a coloumn we would always use the display attribute and set it to flex which will give us a flex grid (makes it easier to manipulate)
 
